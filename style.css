@@ -8,16 +8,16 @@
     --roboto: "Nunito Sans",sans-serif;
 
 }
- {
+ *{
     font-weight:400;
  }
   body{
     color:var(--fundo-senha);
-    background-color var(--cor-de-fundo);
+    background-color: var(--cor-de-fundo);
     font-family: var(--roboto);
   }
   .titulo-principal{
-    font-family: var(--fonte)
+    font-family: var(--fonte);
     font-size: 32px;
   }
   .titulo-secundario{
@@ -29,3 +29,8 @@
     text-align: center;
     margin-top: 80px;
   }
+  .cadeado-conteudo{
+    width: 100px;
+  }
+
+  
