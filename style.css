@@ -1,7 +1,17 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@100..900&display=swap');
 :root{
-   --branco: white;
-   --cor-de-fundo: #00162E;
-   --fundo-senha: #00244D;
-   --fundo-texto: #00
-   --borda:
+    --branco:white;
+    --cor-de-fundo: #222831;
+    --fundo-senha: #393e46;
+    --fundo-texto: #948979;
+    --borda: #dfd0b8;
+    --roboto: "Roboto Slab",sans-serif;
 }
+ {
+    font-weight:400;
+ }
+  body{
+    color:var(--branco)
+    background-color var(--cor-de-fundo);
+    font-family: var(--roboto)
+  }
